@@ -31,7 +31,7 @@ n.add("StorageUnit",
       max_hours=total_capacity_MWh / P_total_Max_EV,  # hours of full power
       efficiency_store=0.95,
       efficiency_dispatch=0.95,
-      state_of_charge_initial=0.5 * total_capacity_MWh,  # start at 50% SOC
+      state_of_charge_initial=0.3 * total_capacity_MWh,  # start at 50% SOC
       state_of_charge_min=0.3 * total_capacity_MWh,      # 30% SOC min
       cyclic_state_of_charge=True,
       marginal_cost=1.0)  # very cheap flexibility
